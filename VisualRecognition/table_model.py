@@ -33,7 +33,7 @@ if __name__ == '__main__':
     means = color_space_means(histo)
     print("The mean values of a table region are (R,G,B):", means)
     # test Nº1
-    img2 = cv2.imread('sampleImages/test4.jpg', cv2.IMREAD_COLOR)
+    img2 = cv2.imread('sampleImages/test6.jpg', cv2.IMREAD_COLOR)
     cv2.namedWindow('test', cv2.WINDOW_NORMAL)
     cv2.resizeWindow('test', 450,600)
     cv2.imshow('test', img2)
